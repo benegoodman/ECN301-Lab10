@@ -12,9 +12,8 @@ import sys
 import pandas as pd
 import os
 
-# os.chdir('yourpath')
+os.chdir('yourpath')
 
-os.chdir(r'C:\Users\bened\OneDrive - Norwegian University of Life Sciences\Fag\ECN 301\Lab 10')
 
 from dbnomics import fetch_series, fetch_series_by_api_link
 
